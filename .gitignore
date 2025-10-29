@@ -59,8 +59,10 @@ dkms.conf
 *.swp
 
 # Archivos de ensamblador
+
 *.s
 *.asm
+*.lst
 
 # Directorios de build
 build/
