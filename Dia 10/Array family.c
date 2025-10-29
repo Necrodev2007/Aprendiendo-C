@@ -40,6 +40,7 @@ printf("%d.%s\n", i + 1, nombres[i]);
 }
 }else
 {
+//si s desea registrar otra familia rinicia el programa mediant el bucle do while
 system("cls");
 printf("\n%cDesea registrar otra familia?(y/n):\n",168);
 while(scanf(" %c", &re) != 1 || (re != 'y' && re != 'Y' && re != 'n' && re != 'N')){

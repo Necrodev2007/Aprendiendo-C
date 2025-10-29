@@ -4,7 +4,7 @@ int main(){
 char g1, g2;
 int op;
 float gr, grf;
-printf("\n======Conversor de temperatura======\n\nOpciones:\n\n1.Celsius a Farenheit\n2.Farenheit a Celsius\n\nSeleccione: ");
+printf("\n======Conversor de temperatura======\n\nOpciones:\n\n1.Celsius a Fahrenheit\n2.Fahrenheit a Celsius\n\nSeleccione: ");
 scanf("%d",&op);
 
 system("cls");
@@ -33,3 +33,10 @@ g2 = 'C';
 printf("%.1f %c%c equivalen a %.1f %c%c\n",gr,248,g1,grf,248,g2);
 return 0;
 }
+
+
+
+
+
+
+
