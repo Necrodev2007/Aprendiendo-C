@@ -50,3 +50,18 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Archivos ejecutables
+
+
+# Archivos temporales
+*.~
+*.swp
+
+# Archivos de ensamblador
+*.s
+*.asm
+
+# Directorios de build
+build/
+dist/
